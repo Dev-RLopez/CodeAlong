@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6AAFC2C9-4D93-B97F-4A01-54B845F25F95}</ProjectGuid>
+    <ProjectGuid>{194D8A3D-EEA5-A561-6C79-3488400771DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,8 +54,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ball.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Brick.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -625,15 +626,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{4FE73907-F5D4-DB69-6920-75E938B0D687}</Project>
+      <Project>{4CADA542-D27E-0992-F81E-DD91DDD7EB5D}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{5B2AC2E6-4C55-00D2-F083-7940055572E7}</Project>
+      <Project>{5F19D64C-02B6-C881-8855-B51020A2E748}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{680448D9-70CA-7248-90C9-0C95E4659AF3}</Project>
+      <Project>{251E43AB-F8F5-A688-B00D-9531D12ECA3F}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
